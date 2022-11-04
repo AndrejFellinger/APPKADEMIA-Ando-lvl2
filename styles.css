@@ -20,8 +20,6 @@ body{
     z-index: 1000;
 }
 
-
-
 #cookies-circle:hover{
     transition: ease 0.15s;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6) !important;
@@ -40,6 +38,10 @@ img svg{
 .header-btn-community:hover{
     transition: ease 0.25s;
     color: black !important;
+}
+
+main-text {
+    background-color: rgb(53, 151, 255) !important;
 }
 
 .btn{
@@ -99,7 +101,12 @@ nav.navbar.main-navbar .navbar-nav *{
         right: -241px !important;
         top: 310px;
         z-index: 1;
+        
     }
+}
+
+.primary-bg{
+    background-color: #3597ff !important;
 }
 
 #why p{
@@ -112,14 +119,50 @@ nav.navbar.main-navbar .navbar-nav *{
     font-weight: 700 !important;
 }
 
-.bg-primary{
-    background-color: #3597ff !important;
-}
-
 .text-gray{
     color: #566b8d;
 }
 
 .small-size-txt{
     font-size: 0.875rem !important;
+}
+
+.cont-size{
+    max-width: 1320px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#our-vision .item {
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+#our-vision .item .count {
+    font-size: 90px;
+}
+
+#our-vision .item .type {
+    font-size: 18px;
+}
+
+#our-vision .item:nth-child(1) {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
+}
+
+#our-vision .item:nth-child(2) {
+    color: rgb(92, 193, 154);
+    background-color: rgba(156, 238, 204, 0.4);
+}
+
+#our-vision .item:nth-child(3) {
+    color: rgb(219, 202, 104);
+    background-color: rgba(238, 226, 156, 0.4);
+}
+
+#our-vision .item:nth-child(4) {
+    color: rgb(185, 94, 115);
+    background-color: rgba(238, 156, 156, 0.4);
 }
