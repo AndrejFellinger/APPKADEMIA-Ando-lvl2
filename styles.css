@@ -105,6 +105,18 @@ nav.navbar.main-navbar .navbar-nav *{
     }
 }
 
+#openlab-o-divider{
+    max-width: 482px;
+    max-height: 482px;
+    width: auto !important;
+    height: auto !important;
+    right: -241px !important;
+    top: 310px;
+    z-index: 1;
+    overflow: hidden !important;
+    position: absolute;
+}
+
 .primary-bg{
     background-color: #3597ff !important;
 }
@@ -171,16 +183,62 @@ nav.navbar.main-navbar .navbar-nav *{
     bottom: 30px;
 }
 
+#join-us .card {
+    max-height: 350px !important;
+    min-width: 250px;
+}
+
 #schools .card img {
-    max-width: 536px;
+    max-width: 550px;
+}
+
+#schools h5 span{
+    max-width: 355px;
+}
+
+#schools h5 a{
+    margin-top: 30px !important;
+}
+
+#schools div .card{
+    max-width: 550px;
 }
 
 .shadow-hover {
     transition: ease 0.2s;
-    border-radius: 7px;
+    border-radius: 6px !important;
 }
 
 .shadow-hover:hover{
     transition: ease 0.2s;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.mx-width-schools{
+    max-width: 550px !important;
+}
+
+#us-team div img{
+    max-width: 306px;
+}
+
+#us-team div .card{
+    max-width: 330px !important;
+}
+
+.us-team-cards{
+    max-width: 330px !important;
+}
+
+.margin-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modern-divider{
+    margin-top: 300px;
+}
+
+#modernschool div img{
+    max-width: 636px;
 }
