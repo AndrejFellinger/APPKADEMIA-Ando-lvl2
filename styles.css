@@ -4,29 +4,16 @@ body{
 }
 
 #cookies-circle{
-    width: 48px;
-    height: 48px;
     background: #3597ff;
-    justify-content: center;
-    text-align: center;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    position: fixed !important;
-    bottom: 25px !important;
-    right: 25px !important;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: ease 0.15s;
-    z-index: 1000;
 }
 
 #cookies-circle:hover{
     transition: ease 0.15s;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6) !important;
-}
-
-img svg{
-    vertical-align: middle;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
 .header-btn-community{
@@ -40,18 +27,14 @@ img svg{
     color: black !important;
 }
 
+.btn-gray {
+    color: #989ca2;
+    background-color: rgba(152, 156, 162, 0.15);
+    border-color: rgba(152, 156, 162, 0.15);
+}
+
 main-text {
     background-color: rgb(53, 151, 255) !important;
-}
-
-.btn{
-    border-radius: 6px !important;
-}
-
-.btn-gray{
-    color: #989ca2 !important;
-    background-color: rgba(152, 156, 162, 0.15) !important;
-    border-color: rgba(152, 156, 162, 0.15) !important;
 }
 
 .btn-primary{
@@ -59,6 +42,7 @@ main-text {
     border-color: #3597ff !important;
     padding: 12px 20px !important;
     font-size: 14px !important;
+    border-radius: 6px;
 }
 
 header .border-bottom{
@@ -77,28 +61,28 @@ nav.navbar.main-navbar .navbar-nav *{
     font-weight: 500;
 }
 
+nav.navbar.main-navbar{
+    height: 80px;
+}
+
 @media (min-width: 992px){
     nav.navbar.main-navbar{
         height: 80px;
     }
 
     #main-txt-img{
-        position: absolute;
-        max-width: 50%;
         left: 50%;
-        max-height: 95%;
-        width: auto !important;
-        height: auto !important;
+        width: auto ;
+        height: auto ;
         bottom: 0;
-        z-index: 99;
     }
 
     #openlab-o-divider{
         max-width: 482px;
         max-height: 482px;
-        width: auto !important;
-        height: auto !important;
-        right: -241px !important;
+        width: auto ;
+        height: auto ;
+        right: -241px ;
         top: 310px;
         z-index: 1;
         
@@ -108,12 +92,12 @@ nav.navbar.main-navbar .navbar-nav *{
 #openlab-o-divider{
     max-width: 482px;
     max-height: 482px;
-    width: auto !important;
-    height: auto !important;
-    right: -241px !important;
+    width: auto ;
+    height: auto ;
+    right: -241px ;
     top: 310px;
     z-index: 1;
-    overflow: hidden !important;
+    overflow: hidden ;
     position: absolute;
 }
 
@@ -127,16 +111,8 @@ nav.navbar.main-navbar .navbar-nav *{
     margin-right: auto !important;;
 }
 
-.fw-bold{
-    font-weight: 700 !important;
-}
-
 .text-gray{
     color: #566b8d;
-}
-
-.small-size-txt{
-    font-size: 0.875rem !important;
 }
 
 .cont-size{
@@ -183,27 +159,6 @@ nav.navbar.main-navbar .navbar-nav *{
     bottom: 30px;
 }
 
-#join-us .card {
-    max-height: 350px !important;
-    min-width: 250px;
-}
-
-#schools .card img {
-    max-width: 550px;
-}
-
-#schools h5 span{
-    max-width: 355px;
-}
-
-#schools h5 a{
-    margin-top: 30px !important;
-}
-
-#schools div .card{
-    max-width: 550px;
-}
-
 .shadow-hover {
     transition: ease 0.2s;
     border-radius: 6px !important;
@@ -223,16 +178,7 @@ nav.navbar.main-navbar .navbar-nav *{
 }
 
 #us-team div .card{
-    max-width: 330px !important;
-}
-
-.us-team-cards{
-    max-width: 330px !important;
-}
-
-.margin-center{
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 330px;
 }
 
 .modern-divider{
