@@ -91,10 +91,30 @@ nav ul{
     }
 }
 
+@media (max-width: 1400px){
+
+    nav{
+        max-width: 1150px !important;
+    }
+
+}
+
+@media (max-width: 1199px){
+
+    nav{
+        max-width: 975px !important;
+    }
+
+}
+
 @media (max-width: 991px){
 
     #openlab-o-divider{
         display: none !important;
+    }
+
+    nav{
+        max-width: 730px !important;
     }
 }
 
@@ -106,6 +126,10 @@ nav ul{
         width: 225px;
         justify-content: center;
     }
+
+    nav{
+        max-width: 555px !important;
+    }
 }
 
 @media (max-width: 568px){
@@ -115,11 +139,10 @@ nav ul{
         width: 245px;
     }
 
-    .nav-item a{
-        margin-bottom: -10px !important;
-        background: rgba(0, 0, 0, 0.02);
-        border-radius: 3px;
-    }
+}
+
+nav{
+    max-width: 1300px;
 }
 
 #openlab-o-divider{
