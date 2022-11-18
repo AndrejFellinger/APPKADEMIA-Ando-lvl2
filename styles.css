@@ -73,6 +73,11 @@ nav ul{
     margin-top: 15px;
 }
 
+#join-us .card{
+    grid-template-columns: auto;
+    max-width: 300px;
+}
+
 @media (min-width: 992px){
     nav.navbar.main-navbar{
         height: 80px;
@@ -105,6 +110,11 @@ nav ul{
         max-width: 975px !important;
     }
 
+    #join-us .card{
+        grid-template-columns: auto;
+        max-width: 435px;
+    }
+
 }
 
 @media (max-width: 991px){
@@ -115,6 +125,11 @@ nav ul{
 
     nav{
         max-width: 730px !important;
+    }
+
+    #join-us .card{
+        grid-template-columns: auto;
+        max-width: 335px;
     }
 }
 
@@ -130,6 +145,15 @@ nav ul{
     nav{
         max-width: 555px !important;
     }
+
+    .our-vision div{
+        max-width: 200px;
+    }
+
+    #join-us .card{
+        grid-template-columns: auto;
+        min-width: 235px;
+    }
 }
 
 @media (max-width: 568px){
@@ -137,6 +161,21 @@ nav ul{
         font-size: 10px !important;
         max-height: 30px;
         width: 245px;
+    }
+
+    .our-vision div{
+        max-width: 160px;
+        max-height: 120px;
+    }
+
+    .our-vision .count{
+        font-size: 55px !important;
+    }
+
+    #schools{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
